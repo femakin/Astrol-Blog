@@ -1,0 +1,22 @@
+---
+import type { Code } from "astro:components";
+// const platform = "github";
+// const username = "withastro";
+import Social from "./Social.astro";
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<footer>
+  <Social platform="twitter" username="astrodotbuild" />
+  <Social platform="github" username="withastro" />
+  <Social platform="youtube" username="astrodotbuild" />
+</footer>
+
+<!-- <script> document.querySelector('.hamburger').addEventListener('click', () => { document.querySelector('.nav-links').classList.toggle('expanded'); }); </script> -->
